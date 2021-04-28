@@ -1,0 +1,1 @@
+The orginal website had scrolling bars whcih means the website was not responisve which would lead to bad user experneice for people other then a computer

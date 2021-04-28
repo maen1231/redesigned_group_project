@@ -1,18 +1,23 @@
 *{
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   color: #cdeba4;
-  font-family:Arial, Helvetica, sans-serif
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: black;
 }
 h3{
     display: flex;
     align-items: center;
     justify-content: center;
     background:black;
-    height: 60px;
+    height: 40px;
     font-weight: bold;
     text-decoration: none;
+}
+#title {
+  flex-grow: 2;
+  color: #cdeba4; 
+  background-color: black;
+  font-size: 40px;
 }
 .menu-area a{
   display: flex;
@@ -24,7 +29,7 @@ h3{
 
 }
 .menu-area a:hover{
-  background: rgb(41, 39, 39);
+  background: rgb(60, 60, 60);
 }
 .menu-area ul{
   list-style: none;
@@ -51,4 +56,24 @@ h3{
 }
 .dropdown-1 li:hover{
   display: block;
+}
+#footer{
+  margin: 15px;
+  border: solid 10px rgb(60, 60, 60);
+}
+#footer >div{
+  background-color: rgb(60, 60, 60);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: none;
+  color: black;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
