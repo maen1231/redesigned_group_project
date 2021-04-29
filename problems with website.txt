@@ -1,1 +1,7 @@
+Images not showing
+better backgorund it makes it more look like nature
+repeating Images in gallery
+Conssitent footer and header for the page
+less cluttered
+fixed the wishlis to be less more complicated I also add it to the website itslef rather tehn it downloading a docs.
 The orginal website had scrolling bars whcih means the website was not responisve which would lead to bad user experneice for people other then a computer
